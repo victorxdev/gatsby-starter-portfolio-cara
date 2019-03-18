@@ -65,7 +65,7 @@ const Index = () => (
         <BigTitle>
           Hello, <br /> I'm Victor.
         </BigTitle>
-        <Subtitle>I'm testing Gatsby.JS with this site.</Subtitle>
+        <Subtitle>Welcome to my online portfolio!</Subtitle>
       </Hero>
       <Projects offset={1}>
         <Title>Projects</Title>
