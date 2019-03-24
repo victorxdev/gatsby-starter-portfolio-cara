@@ -18,6 +18,7 @@ module.exports = {
   ogSiteName: "victortqw", // Facebook Site Name
   ogLanguage: "en_US", // Facebook Language
   googleAnalyticsID: "UA-136591723-1",
+  fullstoryID: "K3AVM",
 
   // Manifest and Progress color
   themeColor: tailwind.colors.orange,
