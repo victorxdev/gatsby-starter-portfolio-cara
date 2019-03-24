@@ -24,6 +24,12 @@ module.exports = {
         trackingId: config.googleAnalyticsID,
       },
     },
+    {
+          resolve: `gatsby-plugin-fullstory`,
+          options: {
+            fs_org: K3AVM,
+          },
+        },
     'gatsby-transformer-sharp',
     'gatsby-plugin-sharp',
     {
@@ -50,17 +56,6 @@ module.exports = {
         ],
       },
     },
-    // In your gatsby-config.js
-    module.exports = {
-      plugins: [
-        {
-          resolve: `gatsby-plugin-fullstory`,
-          options: {
-            fs_org: K3AVM,
-          },
-        },
-      ],
-    }
     /* Must be placed at the end */
     'gatsby-plugin-offline',
     'gatsby-plugin-netlify',
